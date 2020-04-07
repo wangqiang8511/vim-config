@@ -874,6 +874,14 @@ Note that,
 | <kbd>m</kbd> <kbd>Space</kbd> | 𝐍 | Purge marks
 | <kbd>m</kbd> <kbd>Backspace</kbd> | 𝐍 | Purge markers
 
+
+### Local Mappings
+
+| Key   | Mode | Action             | Plugin or Mapping
+| ----- |:----:| ------------------ | ------
+| <kbd>[</kbd>+<kbd>n</kbd> | 𝐍 | Go to next tab | `:tabnext`
+| <kbd>[</kbd>+<kbd>b</kbd> | 𝐍 | Go to previous tab | `:tabprevious`
+
 </details>
 
 ## Credits & Contribution
