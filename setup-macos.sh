@@ -27,3 +27,6 @@ brew install rg
 brew install z
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 brew install fzf
+
+# Setup node provide
+yarn global add neovim
