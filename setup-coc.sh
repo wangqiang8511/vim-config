@@ -1,4 +1,4 @@
 # Setup COC for golang
 
-# Install GOBIN
-nvim +':GoInstallBinaries' +qall
+# Install python language servers
+pip3 install --user 'python-language-server[all]'

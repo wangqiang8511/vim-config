@@ -884,6 +884,14 @@ Note that,
 
 </details>
 
+### Setup coc.nvim
+
+Install Go tools for vim-go
+
+```
+:GoInstallBinaries
+```
+
 ## Credits & Contribution
 
 Big thanks to the dark knight [Shougo](https://github.com/Shougo).
