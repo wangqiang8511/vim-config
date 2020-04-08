@@ -42,8 +42,6 @@
 # Python related, NOTE python-mode use submodule
 # cd ~/.cache/vim/dein/repos/github.com; mkdir python-mode
 # git clone --recurse-submodules https://github.com/python-mode/python-mode
-- { repo: python-mode/python-mode, on_ft: python}
-
 
 - repo: easymotion/vim-easymotion
   on_map: { n: <Plug> }
