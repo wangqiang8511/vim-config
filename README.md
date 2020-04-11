@@ -881,6 +881,12 @@ Note that,
 | ----- |:----:| ------------------ | ------
 | <kbd>[</kbd>+<kbd>n</kbd> | 𝐍 | Go to next tab | `:tabnext`
 | <kbd>[</kbd>+<kbd>b</kbd> | 𝐍 | Go to previous tab | `:tabprevious`
+| <kbd>Space</kbd>+<kbd>svt</kbd> | N | Open terminal in vertical split | :term
+| <kbd>Space</kbd>+<kbd>sgt</kbd> | N | Open terminal in horizontal split |
+:term
+| <kbd>Space</kbd>+<kbd>stt</kbd> | N | Open terminal in new tab | :term
+| <kbd>Space</kbd>+<kbd>rb</kbd> | N | toggle rainbow |
+`junegunn/rainbow_parentheses.vim`
 
 
 ### coc.nvim Mappings

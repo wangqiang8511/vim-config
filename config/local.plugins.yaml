@@ -9,7 +9,7 @@
 - repo: tpope/vim-projectionist
 - repo: vim-scripts/BufOnly.vim
 - repo: godlygeek/tabular
-- repo: luochen1990/rainbow
+- repo: junegunn/rainbow_parentheses.vim
 - repo: haya14busa/incsearch.vim
 - repo: haya14busa/incsearch-fuzzy.vim
 - repo: vim-airline/vim-airline

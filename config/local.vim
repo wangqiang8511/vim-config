@@ -21,3 +21,16 @@ cnoremap w!! w !sudo tee % >/dev/null
 " disable autochdir
 set noautochdir
 set signcolumn=no
+set listchars=tab:>-
+
+" Term mode key mapping to esc
+if has('nvim')
+    tnoremap <Esc> <C-\><C-n>
+    tnoremap <C-v><Esc> <Esc>
+endif
+
+nnoremap <leader>svt :vsplit \| term <CR>
+nnoremap <leader>sgt :split \| term <CR>
+nnoremap <leader>stt :tab \| term <CR>
+nnoremap <leader>stt :tab \| term <CR>
+nnoremap <leader>rb :RainbowParentheses!! <CR>
