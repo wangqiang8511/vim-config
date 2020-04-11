@@ -882,7 +882,32 @@ Note that,
 | <kbd>[</kbd>+<kbd>n</kbd> | 𝐍 | Go to next tab | `:tabnext`
 | <kbd>[</kbd>+<kbd>b</kbd> | 𝐍 | Go to previous tab | `:tabprevious`
 
+
+### coc.nvim Mappings
+
+| Key   | Mode | Action             | Plugin or Mapping
+| ----- |:----:| ------------------ | ------
+| <kbd>Shift</kbd>+<kbd>k</kbd> | 𝐍 | Show Documentation | coc.nvim
+| <kbd>g</kbd>+<kbd>d</kbd> | 𝐍 | Go to definition | coc.nvim
+| <kbd>g</kbd>+<kbd>y</kbd> | 𝐍 | Go to type definition | coc.nvim
+| <kbd>g</kbd>+<kbd>i</kbd> | 𝐍 | Go to implementation | coc.nvim
+| <kbd>g</kbd>+<kbd>r</kbd> | 𝐍 | Go to reference | coc.nvim
+| <kbd>*</kbd> | 𝐍 | Highlight current word | coc.nvim
+| <kbd>Space</kbd>+<kbd>rn</kbd> | 𝐍 | Rename the symbol refactoring | coc.nvim
+| <kbd>Space</kbd>+<kbd>f</kbd> | V | format selected code | coc.nvim
+| <kbd>Space</kbd>+<kbd>wf</kbd> | N V | format current buffer | coc.nvim
+| <kbd>Space</kbd>+<kbd>as</kbd> | V | Apply code action for selected code | coc.nvim
+| <kbd>Space</kbd>+<kbd>ca</kbd> | N | CocList diagnostics | coc.nvim
+| <kbd>Space</kbd>+<kbd>ce</kbd> | N | CocList extensions | coc.nvim
+| <kbd>Space</kbd>+<kbd>cc</kbd> | N | CocList Commands | coc.nvim
+| <kbd>Space</kbd>+<kbd>co</kbd> | N | CocList Outlines | coc.nvim
+| <kbd>Space</kbd>+<kbd>cs</kbd> | N | CocList -I Symbols | coc.nvim
+| <kbd>Space</kbd>+<kbd>cj</kbd> | N | CocNex | coc.nvim
+| <kbd>Space</kbd>+<kbd>ck</kbd> | N | CocPrev | coc.nvim
+| <kbd>Space</kbd>+<kbd>cr</kbd> | N | CocListResume | coc.nvim
+
 </details>
+
 
 ### Setup coc.nvim
 

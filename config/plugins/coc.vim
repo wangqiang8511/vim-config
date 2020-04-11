@@ -67,3 +67,36 @@ function! s:show_documentation()
 		let l:found = CocAction('doHover')
 	endif
 endfunction
+
+
+" Highlight the symbol and its references when holding the cursor.
+autocmd CursorHold * silent call CocActionAsync('highlight')
+
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
+
+" Formatting selected code.
+xmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
+xmap <leader>wf  <Plug>(coc-format)
+nmap <leader>wf  <Plug>(coc-format)
+xmap <leader>as  <Plug>(coc-codeaction-selected)
+nmap <leader>as  <Plug>(coc-codeaction-selected)
+
+" Mappings using CoCList:
+" Show all diagnostics.
+nnoremap <silent> <space>ca  :<C-u>CocList diagnostics<cr>
+" Manage extensions.
+nnoremap <silent> <space>ce  :<C-u>CocList extensions<cr>
+" Show commands.
+nnoremap <silent> <space>cc  :<C-u>CocList commands<cr>
+" Find symbol of current document.
+nnoremap <silent> <space>co  :<C-u>CocList outline<cr>
+" Search workspace symbols.
+nnoremap <silent> <space>cs  :<C-u>CocList -I symbols<cr>
+" Do default action for next item.
+nnoremap <silent> <space>cj  :<C-u>CocNext<CR>
+" Do default action for previous item.
+nnoremap <silent> <space>ck  :<C-u>CocPrev<CR>
+" Resume latest coc list.
+nnoremap <silent> <space>cr  :<C-u>CocListResume<CR>
