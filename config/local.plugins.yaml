@@ -21,6 +21,7 @@
   merge: 0
   rev: release
   hook_add: source $VIM_PATH/config/plugins/coc.vim
+- repo: neoclide/coc-denite
 
 - repo: Yggdroot/indentLine
   hook_add: |

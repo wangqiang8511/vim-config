@@ -905,6 +905,8 @@ Note that,
 | <kbd>Space</kbd>+<kbd>cj</kbd> | N | CocNex | coc.nvim
 | <kbd>Space</kbd>+<kbd>ck</kbd> | N | CocPrev | coc.nvim
 | <kbd>Space</kbd>+<kbd>cr</kbd> | N | CocListResume | coc.nvim
+| <kbd>Space</kbd>+<kbd>cmt</kbd> | N | Toggle coc-metals Tree View | coc.nvim,
+coc-metals
 
 </details>
 
