@@ -882,11 +882,9 @@ Note that,
 | <kbd>[</kbd>+<kbd>n</kbd> | 𝐍 | Go to next tab | `:tabnext`
 | <kbd>[</kbd>+<kbd>b</kbd> | 𝐍 | Go to previous tab | `:tabprevious`
 | <kbd>Space</kbd>+<kbd>svt</kbd> | N | Open terminal in vertical split | :term
-| <kbd>Space</kbd>+<kbd>sgt</kbd> | N | Open terminal in horizontal split |
-:term
+| <kbd>Space</kbd>+<kbd>sgt</kbd> | N | Open terminal in horizontal split | :term
 | <kbd>Space</kbd>+<kbd>stt</kbd> | N | Open terminal in new tab | :term
-| <kbd>Space</kbd>+<kbd>rb</kbd> | N | toggle rainbow |
-`junegunn/rainbow_parentheses.vim`
+| <kbd>Space</kbd>+<kbd>rb</kbd> | N | toggle rainbow | `junegunn/rainbow_parentheses.vim`
 
 
 ### coc.nvim Mappings
@@ -911,8 +909,7 @@ Note that,
 | <kbd>Space</kbd>+<kbd>cj</kbd> | N | CocNex | coc.nvim
 | <kbd>Space</kbd>+<kbd>ck</kbd> | N | CocPrev | coc.nvim
 | <kbd>Space</kbd>+<kbd>cr</kbd> | N | CocListResume | coc.nvim
-| <kbd>Space</kbd>+<kbd>cmt</kbd> | N | Toggle coc-metals Tree View | coc.nvim,
-coc-metals
+| <kbd>Space</kbd>+<kbd>cmt</kbd> | N | Toggle coc-metals Tree View | coc.nvim, coc-metals
 
 </details>
 
