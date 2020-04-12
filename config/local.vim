@@ -34,3 +34,6 @@ nnoremap <leader>sgt :split \| term <CR>
 nnoremap <leader>stt :tab \| term <CR>
 nnoremap <leader>stt :tab \| term <CR>
 nnoremap <leader>rb :RainbowParentheses!! <CR>
+
+" vim wiki config use markdown
+let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
