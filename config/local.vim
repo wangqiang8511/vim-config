@@ -34,3 +34,5 @@ nnoremap <leader>sgt :split \| term <CR>
 nnoremap <leader>stt :tab \| term <CR>
 nnoremap <leader>stt :tab \| term <CR>
 nnoremap <leader>rb :RainbowParentheses!! <CR>
+
+set shell=/bin/zsh
