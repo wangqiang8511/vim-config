@@ -711,7 +711,6 @@ Note that,
 | <kbd>Space</kbd>+<kbd>tp</kbd> | 𝐍 | Peek scroll-context window | <small>[wellle/context.vim]</small>
 | <kbd>Space</kbd>+<kbd>S</kbd> | 𝐍 𝐕 | Source selection | `y:execute @@`
 | <kbd>Space</kbd>+<kbd>?</kbd> | 𝐍 | Open the macOS dictionary on current word | `:!open dict://`
-| <kbd>Space</kbd>+<kbd>P</kbd> | 𝐍 | Use Marked 2 for real-time Markdown preview | <small>[Marked 2]</small>
 | <kbd>Space</kbd>+<kbd>ml</kbd> | 𝐍 | Append modeline to end of buffer | <small>[config/mappings.vim]</small>
 | <kbd>Space</kbd>+<kbd>mda</kbd> | 𝐕 | Sequentially mark region for diff | <small>[AndrewRadev/linediff.vim]</small>
 | <kbd>Space</kbd>+<kbd>mdf</kbd> | 𝐕 | Mark region for diff and compare if more than one | <small>[AndrewRadev/linediff.vim]</small>
@@ -885,7 +884,8 @@ Note that,
 | <kbd>Space</kbd>+<kbd>sgt</kbd> | N | Open terminal in horizontal split | :term
 | <kbd>Space</kbd>+<kbd>stt</kbd> | N | Open terminal in new tab | :term
 | <kbd>Space</kbd>+<kbd>rb</kbd> | N | toggle rainbow | `junegunn/rainbow_parentheses.vim`
-
+| <kbd>Space</kbd>+<kbd>mp</kbd> | N | markdown preview | `iamcco/markdown-preview.nvim`
+| <kbd>Space</kbd>+<kbd>mpt</kbd> | N | toggle markdown preview | `iamcco/markdown-preview.nvim`
 
 ### coc.nvim Mappings
 

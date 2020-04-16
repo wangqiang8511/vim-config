@@ -36,3 +36,7 @@ nnoremap <leader>stt :tab \| term <CR>
 nnoremap <leader>rb :RainbowParentheses!! <CR>
 
 set shell=/bin/zsh
+
+" Markdown Preview Mappings
+nnoremap <leader>mp :MarkdownPreview <CR>
+nnoremap <leader>mpt :MarkdownPreviewToggle <CR>
