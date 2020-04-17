@@ -37,3 +37,9 @@ nnoremap <leader>rb :RainbowParentheses!! <CR>
 
 " vim wiki config use markdown
 let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
+
+set shell=/bin/zsh
+
+" Markdown Preview Mappings
+nnoremap <leader>mp :MarkdownPreview <CR>
+nnoremap <leader>mpt :MarkdownPreviewToggle <CR>
