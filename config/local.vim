@@ -42,4 +42,3 @@ set shell=/bin/zsh
 
 " Markdown Preview Mappings
 nnoremap <leader>mp :MarkdownPreview <CR>
-nnoremap <leader>mpt :MarkdownPreviewToggle <CR>
