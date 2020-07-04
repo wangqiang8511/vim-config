@@ -42,3 +42,5 @@ set shell=/bin/zsh
 
 " Markdown Preview Mappings
 nnoremap <leader>mp :MarkdownPreview <CR>
+
+autocmd FileType python let b:coc_root_patterns = ['.git', '.env', 'Makefile']
