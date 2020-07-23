@@ -18,11 +18,11 @@
 - repo: junegunn/vim-easy-align
 - repo: Valloric/MatchTagAlways
 - repo: neoclide/coc.nvim
-  merge: 0
+  merged: 0
   rev: release
   hook_add: source $VIM_PATH/config/plugins/coc.vim
-- repo: neoclide/coc-denite
-  merge: 0
+- repo: wangqiang8511/coc-denite
+  merged: 0
 
 - repo: Yggdroot/indentLine
   hook_add: |
