@@ -1,6 +1,6 @@
 " coc.nvim settings
 " ---
-let g:coc_global_extensions = ['coc-snippets', 'coc-python', 'coc-json', 'coc-metals', 'coc-omnisharp', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-snippets', 'coc-python', 'coc-json', 'coc-metals', 'coc-omnisharp', 'coc-tsserver', 'coc-rls']
 " Don't load the defx-git plugin file, not needed
 let b:defx_git_loaded = 1
 
