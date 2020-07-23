@@ -11,7 +11,8 @@ sudo apt-get install python3-pip neovim -y
 
 
 # python
-sudo pip3 install --user pynvim
+sudo pip3 install pynvim
+sudo pip3 install -U msgpack
 
 # Install lint
 curl -L "$(curl -Ls https://api.github.com/repos/terraform-linters/tflint/releases/latest | grep -o -E "https://.+?_linux_amd64.zip")" -o tflint.zip && unzip tflint.zip && sudo mv tflint /usr/local/bin && rm tflint.zip 
@@ -29,5 +30,4 @@ curl -L https://raw.githubusercontent.com/rupa/z/master/z.sh -o z.sh && chmod +x
 #./install.sh font-iosevka-nerd-font-mono
 #./install.sh font-jetbrains-mono
 #./install.sh font-fira-code
-
-
+# fc-cache -fv
